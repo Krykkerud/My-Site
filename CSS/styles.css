@@ -2,38 +2,71 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
+  font-size: 200%;
 }
 
 h1 {
-  margin-top: 0;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
+  color: #A56CC1;
 }
 
 h2 {
+  font-size: 2.5rem;
   font-family: 'Montserrat', sans-serif;
+  color: #A56CC1;
+  font-weight: normal;
 }
 
 h3 {
   font-family: 'Merriweather', serif;
+  color: #9B3675;
 }
 
 .top-container {
-  background-color: #00ADB5;
+  background-color: #ACE7EF;
   padding-top: 100px;
   position: relative;
+  height: 655px;
 }
 
-.middle-container {
+.profile {
+  padding-top: 30px;
+}
+
+.middle-container {}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+.alien-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.earth-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
 
 }
 
 .bottom-container {
-
+  background-color: #ecfcff;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .man {
   text-decoration: underline;
 }
+
+.mountain {}
 
 .top-cloud {
   position: absolute;
@@ -45,4 +78,10 @@ h3 {
   position: absolute;
   left: 300px;
   bottom: 300px;
+}
+
+.footer-link {
+  padding: 10px;
+  font-size: 1rem;
+  color: #11999E;
 }
