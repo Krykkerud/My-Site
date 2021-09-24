@@ -6,11 +6,10 @@ body {
 }
 
 hr {
-border-style: none;
-border-top-style: dotted;
-border-color: #EAF6F6;
-border-width: 5px;
-width: 5%
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
 }
 
 h1 {
@@ -25,6 +24,7 @@ h2 {
   font-family: 'Montserrat', sans-serif;
   color: #66BFBF;
   font-weight: normal;
+  padding-bottom: 10px;
 }
 
 h3 {
@@ -36,20 +36,42 @@ h3 {
 p {
   color: #40514E;
   font-size: 1.3rem;
+  line-height: 2;
+}
+
+a{
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
 }
 
 .top-container {
   background-color: #EAF6F6;
   padding-top: 100px;
   position: relative;
-  height: 655px;
+  height: 665px;
 }
 
 .profile {
   padding-top: 30px;
 }
 
-.middle-container {}
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.middle-container {
+  margin: 100px 0 0;
+}
 
 .skill-row {
   margin: 100px auto 100px auto;
@@ -57,6 +79,7 @@ p {
   text-align: left;
   line-height: 2;
 }
+
 .alien-img {
   width: 25%;
   float: left;
@@ -67,7 +90,6 @@ p {
   width: 25%;
   float: right;
   margin-left: 30px;
-
 }
 
 .contact-me {
@@ -76,8 +98,7 @@ p {
 
 .bottom-container {
   background-color: #66BFBF;
-  padding-bottom: 20px;
-  padding-top: 20px;
+padding: 50px 0 20px;
 }
 
 .man {
@@ -89,12 +110,12 @@ p {
 .top-cloud {
   position: absolute;
   right: 300px;
-  top: 50px;
+  top: 40px;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
+  left: 250px;
   bottom: 300px;
 }
 
@@ -106,7 +127,8 @@ p {
 
 .copy-right {
   color: #EAF6F6;
-  font-size: 0.9rem;
+  font-size: 0.75rem;
+  padding: 20px 0;
 }
 
 .flaticon {
@@ -115,23 +137,25 @@ p {
 }
 
 .btn {
-   background: #3D94F6;
-   background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
-   background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
-   background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
-   background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
-   background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
-   -webkit-border-radius: 20px;
-   -moz-border-radius: 20px;
-   border-radius: 20px;
+   background: #11CDD4;
+   background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
    color: #FFFFFF;
-   font-family: Open Sans;
+   font-family: 'Montserrat', sans-serif;
    font-size: 20px;
    font-weight: 700;
    padding: 20px;
-   -webkit-box-shadow: inset 1px 1px 20px 0 #000000;
-   -moz-box-shadow: inset 1px 1px 20px 0 #000000;
-   box-shadow: inset 1px 1px 20px 0 #000000;
+   box-shadow-color: 20;
+   box-shadow-horizontal: ;
+   box-shadow-vertical: 0;
+   box-shadow-blur: 1;
+   box-shadow-spread: 1;
    text-shadow: 1px 1px 20px #000000;
    border: solid #337FED 1px;
    text-decoration: none;
@@ -142,14 +166,14 @@ p {
 
 .btn:hover {
    border: solid #337FED 1px;
-   background: #1E62D0;
-   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
-   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
-   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
-   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
-   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
-   -webkit-border-radius: 20px;
-   -moz-border-radius: 20px;
-   border-radius: 20px;
+   background: #30E3CB;
+   background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
    text-decoration: none;
 }
